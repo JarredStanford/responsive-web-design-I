@@ -239,5 +239,86 @@ footer {
 }
 
 @media all and (max-width: 800px) {
-    
+    .container {
+        width: 800px;
+    }
+
+    header .logo {
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        padding-left: 35px;
+    }
+
+    header {
+        margin-left: 25px;
+        margin-right: 60px;
+    }
+
+    header nav {
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+
+    header nav a {
+        margin-right: 0px;
+        font-size: 16px;
+    }
+
+    .innovation button {
+        margin-top: 15px;
+        border: 1.5px solid black;
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .get-started img {
+        display: none;
+    }
+
+    .content {
+        margin-left: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        margin-right: 20px;
+    }
+
+    .top-content {
+        margin-left: 15px;
+    }
+
+    .text-content-top {
+        width: 48%;
+    }
+
+    .text-content-top:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    .middle-img {
+        width: 760px;
+    }
+
+    .bottom-content {
+        margin-left: 15px;
+    }
+
+    .text-content-bottom {
+        width: 32%;
+        margin-right: 35px;
+    }
+
+    .contact {
+        margin-left: 35px;
+        font-weight: bold;
+    }
+
+    footer {
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
 }
