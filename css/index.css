@@ -323,7 +323,7 @@ footer {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (min-width: 501px) and (max-width: 800px) {
   .container {
     width: 800px;
   }
