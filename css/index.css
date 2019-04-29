@@ -164,7 +164,7 @@ footer {
 	margin-bottom: 100px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width:500px) {
 
     .container {
         width: 500px;
